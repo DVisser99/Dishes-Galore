@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 document.addEventListener("DOMContentLoaded", () => {
     // Function to add hover effect on an image
     function addHoverEffect(imgId, originalSrc, hoverSrc) {
@@ -16,3 +17,12 @@ document.addEventListener("DOMContentLoaded", () => {
     addHoverEffect("scrubImg", "images/scrubbing-dish.jpg", "images/scrubbing-dish2.jpg")
 
 });
+=======
+function changeImage() {
+    document.getElementById("hoverImage").src = "images/image2.jpeg";
+}
+
+function resetImage() {
+    document.getElementById("hoverImage").src = "images/image1.jpeg";
+}
+>>>>>>> Stashed changes
