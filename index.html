@@ -44,7 +44,35 @@
       <p>You have learned a new skill! We appreciate you visiting our page! </p>
 
     </section>
-  </body>
+ <section> 
+
+   <button id="openModalBtn">Open Input Form</button>
+
+   <div id="myModal" class="modal">
+       <div class="modal-content">
+           <span class="close">&times;</span>
+           <h2>Enter User Data</h2>
+           <form id="userDataForm">
+               <label for="username">Name:</label>
+               <input type="text" id="username" name="username" required><br><br>
+
+               <label for="email">Email:</label>
+               <input type="email" id="email" name="email" required><br><br>
+
+               <button type="submit" id="saveDataBtn">Save Data</button>
+           </form>
+
+           <button id="loadDataBtn">Load Data</button>
+           <button id="clearDataBtn">Clear Data</button>
+       </div>
+  
+  </section>
+
+
+
+
+
+
   <footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="script.js"></script>
