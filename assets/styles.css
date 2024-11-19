@@ -85,11 +85,3 @@ button:hover {
     border-width: 3px;
     border-color: black;
 }
-
-#instruction{
-    border-style: double;
-    border-radius: 5px;
-    border-spacing: 5px;
-    width: 400px;
-
-}
