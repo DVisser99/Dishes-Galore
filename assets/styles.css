@@ -54,37 +54,15 @@ button:hover {
     background-color: #f1f1f1;
 }
 
-#scrapeImg{
-    height: 300px;
-    width: 400px;
-    border-style: outset;
-    border-width: 3px;
-    border-color: black;
+.title {
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 2px solid black;
 }
 
-#soakImg{
+.img {
     height: 300px;
     width: 400px;
-    border-style: outset;
-    border-width: 3px;
-    border-color: black;
-}
-
-#scrubImg{
-    height: 300px;
-    width: 400px;
-    border-style: outset;
-    border-width: 3px;
-    border-color: black;
-}
-
-#dryImg{
-    height: 300px;
-    width: 400px;
-    border-style: outset;
-    border-width: 3px;
-    border-color: black;
-}
+    border: 2px solid black;
 
 #instruction{
     border-style: double;
