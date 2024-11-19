@@ -11,9 +11,19 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     // Apply hover effect to images
-    addHoverEffect("scrapeImg", "/images/scraping-dish.jpg", "./images/scraping-dish2.jpg");
+    addHoverEffect("scrapeImg", "images/scraping-dish.jpg", "images/scraping-dish2.jpg");
     addHoverEffect("soakImg", "images/dishes-soaking.png", "images/dishes-soaking2.jpg")
     addHoverEffect("scrubImg", "images/scrubbing-dish.jpg", "images/scrubbing-dish2.jpg")
+    addHoverEffect("scrubImg", "images/drying-dish.jpg", "images/drying-dish2.jpg")
+
+function changeImage() {
+    document.getElementById("hoverImage").src = "images/image2.jpeg";
+}
+
+function resetImage() {
+    document.getElementById("hoverImage").src = "images/image1.jpeg";
+}
+
     addHoverEffect("dryImg", "images/drying-dish.jpg", "images/drying-dish2.jpg")
 });
 

@@ -1,4 +1,8 @@
-
+.container-fluid {
+    background-color: lightblue;
+    color: #555;
+    text-align: center;
+}
 .modal {
     display: none; 
     position: fixed; 
@@ -59,4 +63,11 @@ button:hover {
     height: 300px;
     width: 400px;
     border: 2px solid black;
+
+#instruction{
+    border-style: double;
+    border-radius: 5px;
+    border-spacing: 5px;
+    width: 400px;
+
 }
