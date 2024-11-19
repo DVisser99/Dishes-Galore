@@ -1,8 +1,21 @@
-.container-fluid {
+.body {
+    background-color: rgb(129, 161, 172);
+}
+
+.containerEl {
+    font-family: 'Courier New', Courier, monospace;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.container-lg {
     background-color: lightblue;
     color: #555;
     text-align: center;
 }
+
 .modal {
     display: none; 
     position: fixed; 
@@ -56,10 +69,16 @@ button:hover {
 
 .title {
     font-family: 'Courier New', Courier, monospace;
-    border-bottom: 2px solid black;
+    border-bottom: 3px solid black;
+    text-align: center;
+    background-color: lightblue;
 }
 
 .img {
     height: 300px;
     width: 400px;
+    border-radius: 15px;
+    border: 3px solid black;
+    border-style: outset;
+    border-width: 3px;
 }
