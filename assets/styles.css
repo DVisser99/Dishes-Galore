@@ -53,3 +53,43 @@ input, button {
 button:hover {
     background-color: #f1f1f1;
 }
+
+#scrapeImg{
+    height: 300px;
+    width: 400px;
+    border-style: outset;
+    border-width: 3px;
+    border-color: black;
+}
+
+#soakImg{
+    height: 300px;
+    width: 400px;
+    border-style: outset;
+    border-width: 3px;
+    border-color: black;
+}
+
+#scrubImg{
+    height: 300px;
+    width: 400px;
+    border-style: outset;
+    border-width: 3px;
+    border-color: black;
+}
+
+#dryImg{
+    height: 300px;
+    width: 400px;
+    border-style: outset;
+    border-width: 3px;
+    border-color: black;
+}
+
+#instruction{
+    border-style: double;
+    border-radius: 5px;
+    border-spacing: 5px;
+    width: 400px;
+
+}
